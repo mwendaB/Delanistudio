@@ -1,0 +1,12 @@
+#home{
+   
+    background-image: url("../assets/background1.jpg");
+    background-position: center;
+    text-align: center;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding: 10%;
+}
+
