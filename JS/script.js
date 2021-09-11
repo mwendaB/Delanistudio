@@ -44,4 +44,16 @@ $(document).ready(function () {
     });
   });
 
+  $(".paragraph3").click(function () {
+    $(".paragraph3").toggle(function () {
+      $(".img3").show(function () {
+        $("#header3").css('font-size','x-large');
+      });
+    });
+  });
+
 });
+
+$$(document).ready(function (){
+    
+}
