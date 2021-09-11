@@ -30,6 +30,7 @@
     text-align: center;
     padding: 5%;
 }
+
 #h31{
     font-size: large;
     font-weight: 600;
@@ -41,6 +42,13 @@
 #h33{
     font-size: large;
     font-weight: 600;
+}
+.paragragh1{
+    display: none;
+}
+.paragraph2,
+.paragraph3 {
+    display: none;
 }
 .provided{
    
@@ -86,7 +94,7 @@ input {
     margin-right: 10%;
     color: white;
     column-gap: 5%;
-  }
+}
   
 input[type=text],input[type=email],#comment{
     background: transparent;
@@ -111,12 +119,10 @@ footer{
   width: 100%;
   height: 100%;
   background-color:rgba(255, 255, 255, 0.456);
-  position:absolute;
-  top: 20px;
   left: 35px;
   font-weight: bold;
   text-align: center;
   font-size: 30px;
-  padding-top: 50%;
+ 
   font-family: 'Delius Swash Caps', cursive;
 }
