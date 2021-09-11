@@ -28,8 +28,25 @@
 }
 #what-we-do{
     text-align: center;
+    padding: 5%;
 }
 #h31{
     font-size: large;
     font-weight: 600;
+}
+#h32{
+    font-size: large;
+    font-weight: 600;
+}
+#h33{
+    font-size: large;
+    font-weight: 600;
+}
+.provided{
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    
 }
