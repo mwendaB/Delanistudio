@@ -52,8 +52,12 @@ $(document).ready(function () {
     });
   });
 
+
+  $("#slide").hide();
+  $("#slide").animate({opacity:0.2}, 1000);
+  $(".anime").hover(function () {
+    $(this).find("#slide").toggle(400);
+  });
+
 });
 
-$$(document).ready(function (){
-    
-}
