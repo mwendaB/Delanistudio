@@ -1,10 +1,26 @@
-$(document).ready(function(){
-    $(".img1").click(function(){
-      $(".img1").slideDown('1500').hide('1000');
-      $(".h21").show('1500');
+$(document).ready(function () {
+    $(".img1").click(function () {
+      $(".img1").toggle(function () {
+        $(".paragragh1" ).show(function () {
+          $("#h31").css('font-weight', 'bold');
+        });
+      });
     });
-    $(".h21").click(function(){
-      $(".h21").slideUp('1500');
-      $(".img1").slideDown('1500');
-    });
-  });
+
+    // $(".img2").click(function(){
+    //    $(".img2").toggle(function() {
+    //        $("h32").css();
+    //    });
+    // });
+
+    $(".img1").click(function () {
+        $(".img1").toggle(function () {
+          $(".paragraph1").show(function () {
+            $("#h31").css('font-weight', 'bold');
+          });
+        });
+      });
+
+
+
+});
