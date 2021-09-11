@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".img1").click(function () {
       $(".img1").toggle(function () {
         $(".paragragh1" ).show(function () {
-          $("#h31").css('font-weight', 'bold');
+          $("#header1").css('font-size','x-large');
         });
       });
     });
@@ -11,7 +11,7 @@ $(document).ready(function () {
     $(".img2").click(function () {
         $(".img2").toggle(function () {
           $(".paragraph2").show(function () {
-            $("#h32").css('font-weight', 'bold');
+            $("#header2").css('font-size','x-large');
           });
         });
       });
@@ -20,10 +20,28 @@ $(document).ready(function () {
       $(".img3").click(function () {
         $(".img3").toggle(function () {
           $(".paragraph3").show(function () {
-            $("#h33").css('font-weight', 'bold');
+            $("#header3").css('font-size','x-large');
           });
         });
       });
 
+
+
+  $(".paragraph1").click(function () {
+    $(".paragraph1").toggle(function () {
+      $(".img1").show(function () {
+        $("#header1").css('font-size','x-large');
+      });
+    });
+  });
+
+
+  $(".paragraph2").click(function () {
+    $(".paragraph2").toggle(function () {
+      $(".img2").show(function () {
+        $("#header2").css('font-size','x-large');
+      });
+    });
+  });
 
 });
