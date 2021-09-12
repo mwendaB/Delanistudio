@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+
+
+h1,
+h2{
+    font-family: 'Cinzel', serif;
+}
+h6,
+p {
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+
 #home{
    
     background-image: url("../assets/background1.jpg");
@@ -16,6 +34,7 @@
     
 }
 
+
 #services{
     background-image: url("../assets/background2.jpg");
     text-align: center;
@@ -25,11 +44,13 @@
     background-size: cover;
     position: relative;
     padding: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 #what-we-do{
     text-align: center;
     padding: 5%;
+    font-family: 'crimson pro', serif;
 }
 
 #header1{
