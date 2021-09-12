@@ -63,7 +63,8 @@
 
 .portfolio{
  text-align: center;
- padding: 3%;
+ padding: 5%;
+ padding-bottom: -8%;
 }
 
 .slide {
@@ -102,7 +103,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 7%;
+    padding: 10%;
     color: white;
     
 }
