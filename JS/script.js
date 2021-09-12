@@ -53,13 +53,32 @@ $(document).ready(function () {
   });
 
 
-  $(".slide").hide();
+  
+});
+
+$(document).ready(function(){
+$(".slide").hide();
   $(".slide").animate({opacity:0.2}, 1000);
   $(".jpg").hover(function () {
     $(this).find(".slide").toggle(400);
   });
+
 });
 
 
+$(document).ready(function(){
+  $("form.contact").submit(function(event){
+    
+    var name = $("input#NAME").val();
+    var email = $("input#EMAIL").val();
+    var message = $("textarea#comment").val();
+    if ($("input#NAME").val() && $("input#EMAIL").val()){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+    
+  });
 
-
+});
