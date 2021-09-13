@@ -63,6 +63,12 @@ $(".slide").hide();
 
 });
 
+$(document).ready(function(){
+  $(".form").submit(function (e) {
 
+    var user = document.getElementById("NAME").value;
+    alert(user + ", we have received your message. Thank you for reaching out to us. We will contact you soon");
 
+  });
 
+  });
